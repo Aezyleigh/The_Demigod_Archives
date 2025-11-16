@@ -72,7 +72,7 @@ h3 {
 }
 
 /* Custom Divider */
-.divider {
+.custom-divider {
   width: 60%;            
   height: 2px;           
   background-color: var(--sea-blue);
