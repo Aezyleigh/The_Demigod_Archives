@@ -1,155 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Demigod Archives | The Cabins</title>
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Neuton&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --sea-blue: #80A1BA;
-            --seafoam: #91C4C3;
-            --mint: #B4DEBD;
-            --parchment: #FFF7DD;
-            --text-dark: #2C3E50;
-            --text-light: #FFF7DD;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        body {
-            background-color: var(--parchment);
-            font-family: 'Neuton', serif;
-            color: var(--text-dark);
-            line-height: 1.6;
-        }
-
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-
-        header {
-            background: linear-gradient(135deg, var(--sea-blue), var(--seafoam));
-            color: var(--text-light);
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        h1 { font-family: 'IM Fell English', serif; font-size: 2.5rem; }
-
-        nav {
-            background: var(--sea-blue);
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: bold;
-            margin: 0 1rem;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-        }
-
-        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
-
-        .page-header { text-align: center; padding: 2rem 0; }
-        .page-header h2 { font-family: 'IM Fell English', serif; font-size: 2.5rem; margin-bottom: 1rem; }
-
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .card-header {
-            background: linear-gradient(135deg, var(--sea-blue), var(--seafoam));
-            color: var(--text-light);
-            padding: 1.5rem;
-            text-align: center;
-        }
-
-        .card-header h3 { font-family: 'IM Fell English', serif; }
-
-        .card-image {
-            height: 200px;
-            background: var(--mint);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .card-content { padding: 1.5rem; }
-
-        footer {
-            background: var(--sea-blue);
-            color: var(--text-light);
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            .page-header h2 { font-size: 2rem; }
-            .cards-grid { grid-template-columns: 1fr; }
-        }
-    </style>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Demigod Archives | The Cabins</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Neuton&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="./images/favicon.png">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>THE DEMIGOD ARCHIVES</h1>
-            <p>Home of the Demigods • Est. June 28, 2005</p>
-        </div>
-    </header>
+  <header>
+    <div class="title-banner">
+  <img src="./images/Sword_Logo-The_Demigod_Archives.png" alt="Sword" class="sword-logo">
+  <h1>THE DEMIGOD ARCHIVES</h1>
+   <img src="./images/Sword_Logo-The_Demigod_Archives.png" alt="Sword" class="sword-logo">
+</div>
+      <p>Home of the Demigods • Est. June 28, 2005</p>
+    </div>
+  </header>
 
-    <nav>
-        <div class="container">
-            <a href="index.html">Home</a>
-            <a href="cabins.html" class="active">The Cabins</a>
-            <a href="characters.html">The Characters</a>
-            <a href="quests.html">Quest Log</a>
-            <a href="about.html">About Author</a>
-        </div>
-    </nav>
 
+  <nav>
     <div class="container">
-        <div class="page-header">
-            <h2>The Cabins of Camp Half-Blood</h2>
-            <p>Get ready to discover the cabins that represent each Olympian god <em>(you may find out who your godly parent is).</em></p>
-        </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cabins.html" class="active">The Cabins</a></li>
+        <li><a href="characters.html">The Characters</a></li>
+        <li><a href="quests.html">Quest Log</a></li>
+        <li><a href="about.html">About Author</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="cards-grid">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Cabin 1</h3>
-                </div>
-                <div class="card-image">
-                    [Image Placeholder]
-                </div>
-                <div class="card-content">
-                    <p>Description</p>
-                </div>
-            </div>
-            
-        </div>
+  <div class="container">
+    <div class="page-header">
+      <h2>The Cabins of Camp Half-Blood</h2>
+      <p>Discover cabins representing each Olympian god. Who’s your godly parent?</p>
     </div>
 
-    <footer>
-        <div class="container">
-            <p>The Demigod Archives • Camp Half-Blood, Long Island, New York</p>
-            <p>For demigod eyes only. Mortals will see only a strawberry farm.</p>
-            <p>© 2025 The Demigod Archives. All rights reserved.</p>
-        </div>
-    </footer>
+    <div class="cards-grid">
+      <!-- 12 cabins -->
+      <div class="card">
+        <div class="card-header"><h3>Cabin 1 — Zeus</h3></div>
+        <div class="card-image"><img src="images/cabin1-zeus.jpg" alt="Zeus Cabin"/></div>
+        <div class="card-content"><p>— Zeus’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 2 — Hera</h3></div>
+        <div class="card-image"><img src="images/cabin2-hera.jpg" alt="Hera Cabin"/></div>
+        <div class="card-content"><p>— Hera’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 3 — Poseidon</h3></div>
+        <div class="card-image"><img src="images/cabin3-poseidon.jpg" alt="Poseidon Cabin"/></div>
+        <div class="card-content"><p>— Poseidon’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 4 — Demeter</h3></div>
+        <div class="card-image"><img src="images/cabin4-demeter.jpg" alt="Demeter Cabin"/></div>
+        <div class="card-content"><p>— Demeter’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 5 — Ares</h3></div>
+        <div class="card-image"><img src="images/cabin5-ares.jpg" alt="Ares Cabin"/></div>
+        <div class="card-content"><p>— Ares’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 6 — Athena</h3></div>
+        <div class="card-image"><img src="images/cabin6-athena.jpg" alt="Athena Cabin"/></div>
+        <div class="card-content"><p>— Athena’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 7 — Apollo</h3></div>
+        <div class="card-image"><img src="images/cabin7-apollo.jpg" alt="Apollo Cabin"/></div>
+        <div class="card-content"><p>— Apollo’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 8 — Artemis</h3></div>
+        <div class="card-image"><img src="images/cabin8-artemis.jpg" alt="Artemis Cabin"/></div>
+        <div class="card-content"><p>— Artemis’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 9 — Hephaestus</h3></div>
+        <div class="card-image"><img src="images/cabin9-hephaestus.jpg" alt="Hephaestus Cabin"/></div>
+        <div class="card-content"><p>— Hephaestus’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 10 — Aphrodite</h3></div>
+        <div class="card-image"><img src="images/cabin10-aphrodite.jpg" alt="Aphrodite Cabin"/></div>
+        <div class="card-content"><p>— Aphrodite’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 11 — Hermes</h3></div>
+        <div class="card-image"><img src="images/cabin11-hermes.jpg" alt="Hermes Cabin"/></div>
+        <div class="card-content"><p>— Hermes’s Cabin Information —</p></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3>Cabin 12 — Dionysus</h3></div>
+        <div class="card-image"><img src="images/cabin12-dionysus.jpg" alt="Dionysus Cabin"/></div>
+        <div class="card-content"><p>— Dionysus’s Cabin Information —</p></div>
+      </div>
+    </div>
+
+    <p style="text-align:right; margin-top:1rem;">NOTE: There is more content below for other cabins.</p>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>The Demigod Archives • Camp Half-Blood, Long Island, New York</p>
+      <p>For demigod eyes only. Mortals will only see a strawberry farm.</p>
+      <p>© 2025 The Demigod Archives. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
