@@ -415,3 +415,6 @@ footer .container {
     width: 32px;
   }
 }
+.quest-page .quest-grid {
+  grid-template-columns: 1fr !important;
+}
